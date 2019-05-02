@@ -16,7 +16,10 @@
     "autoload": {
       "psr-4": {
         "Askual\\Bilbila\\": "src/Bilbila"
-      }
+      },
+      "classmap": [
+          "src"
+      ]
     },
     "version": "1.0.0"
 }

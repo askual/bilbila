@@ -31,8 +31,9 @@ require_once '/path/to/Bilbila/src/autoload.php';
 // alternatively, use another PSR-0 compliant autoloader (like the Symfony2 ClassLoader for instance)
 
 // use the factory to create a Faker\Generator instance
-$number = '251925287357';
-$bilbila = Askual\Bilbila\Generate($number);
+$number = '0925287357';
+$bilbila = new Askual\Bilbila\Generate($number);
+
 
 // generate data by accessing properties
 echo $bilbila->number;
@@ -41,13 +42,6 @@ echo $bilbila->country;
   // 'eth'
 ```
 
-## Properties
-
-Each of the generator properties (like `name`, `address`, and `lorem`) are called "formatters". A faker generator has many of them, packaged in "providers". Here is a list of the bundled formatters in the default locale.
-
-    randomDigit             // 7
-    randomDigitNotNull      // 5
-    randomNumber($nbDigits = NULL, $strict = false) // 79907610
 
 ## License
 

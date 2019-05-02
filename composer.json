@@ -1,0 +1,19 @@
+{
+    "name": "askual/bilbila",
+    "description": "ethiopian phone number formatter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "deqiq",
+            "email": "kibdemta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Bilbila\\": "src/Bilbila"
+      }
+    }
+}

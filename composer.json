@@ -11,9 +11,12 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "require-dev": {
+      "phpunit/phpunit": "8.0.0"
+    },
     "autoload": {
       "psr-4": {
-        "Bilbila\\": "src/Bilbila"
+        "Askual\\Bilbila\\": "src/Bilbila"
       }
     }
 }

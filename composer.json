@@ -18,5 +18,6 @@
       "psr-4": {
         "Askual\\Bilbila\\": "src/Bilbila"
       }
-    }
+    },
+    "version": "1.0.0"
 }

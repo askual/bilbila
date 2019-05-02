@@ -9,7 +9,6 @@
             "email": "kibdemta@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "require-dev": {
       "phpunit/phpunit": "8.0.0"
